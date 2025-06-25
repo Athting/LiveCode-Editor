@@ -24,28 +24,9 @@ Backend: Node.js, Express
 Real-Time: Socket.IO
 <br>
 
-REALITIME_CODE/
-├── 📁 backend/                  # Backend server files <br>
-│   └── 🟨 index.js              # Main server entry point (Express/Socket.IO) <br>
-│<br>
-├── 📁 frontend/                 # Frontend application <br>
-│   ├── 📁 dist/                 # Production build output <br>
-│   ├── 📁 public/               # Static assets <br>
-│   │   └── 🟨 index.html        # Main HTML template <br>
-│   │ <br>
-│   ├── 📁 src/                  # Source code <br>
-│   │   ├── 📁 assets/           # Images/fonts <br>
-│   │   ├── 🟦 App.css           # Main styles <br>
-│   │   ├── 🟦 App.jsx           # Root React component <br>
-│   │   └── 🟦 main.jsx          # React entry point <br>
-│   │
-│   ├── 🟨 .eslint.config.js     # ESLint configuration <br>
-│   ├── 🟨 vite.config.js        # Vite configuration <br>
-│   ├── 🟨 package.json          # Frontend dependencies <br>
-│   └── 🟨 package-lock.json
-│ <br>
-├── 📄 .gitignore               # Git exclusion rules <br>
-├── 📄 README.md                # Project documentation <br>
-├── 🟨 package.json             # Root project config <br>
-└── 🟨 package-lock.json     <br>
+## 📂 File Structure![Screenshot 2025-06-26 001404](https://github.com/user-attachments/assets/eefefdd5-f4be-474e-be83-f1d73f5058b0)
+
+## 🖼️ Screenshots
+![Screenshot (6)](https://github.com/user-attachments/assets/5e6c7025-05e4-4427-bf45-70038330fae3)
+![Screenshot (4)](https://github.com/user-attachments/assets/b931979b-4ac4-4cbc-a280-8361388e99a9)
 
