@@ -18,5 +18,8 @@
 ## 🛠️ Tech_Stack
 
 Frontend: HTML5, CSS3, JavaScript, Monaco Editor
+<br>
 Backend: Node.js, Express
+<br>
 Real-Time: Socket.IO
+<br>
