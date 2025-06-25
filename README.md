@@ -23,3 +23,29 @@ Backend: Node.js, Express
 <br>
 Real-Time: Socket.IO
 <br>
+
+REALITIME_CODE/
+├── 📁 backend/                  # Backend server files <br>
+│   └── 🟨 index.js              # Main server entry point (Express/Socket.IO) <br>
+│<br>
+├── 📁 frontend/                 # Frontend application <br>
+│   ├── 📁 dist/                 # Production build output <br>
+│   ├── 📁 public/               # Static assets <br>
+│   │   └── 🟨 index.html        # Main HTML template <br>
+│   │ <br>
+│   ├── 📁 src/                  # Source code <br>
+│   │   ├── 📁 assets/           # Images/fonts <br>
+│   │   ├── 🟦 App.css           # Main styles <br>
+│   │   ├── 🟦 App.jsx           # Root React component <br>
+│   │   └── 🟦 main.jsx          # React entry point <br>
+│   │
+│   ├── 🟨 .eslint.config.js     # ESLint configuration <br>
+│   ├── 🟨 vite.config.js        # Vite configuration <br>
+│   ├── 🟨 package.json          # Frontend dependencies <br>
+│   └── 🟨 package-lock.json
+│ <br>
+├── 📄 .gitignore               # Git exclusion rules <br>
+├── 📄 README.md                # Project documentation <br>
+├── 🟨 package.json             # Root project config <br>
+└── 🟨 package-lock.json     <br>
+
