@@ -20,36 +20,3 @@
 Frontend: HTML5, CSS3, JavaScript, Monaco Editor
 Backend: Node.js, Express
 Real-Time: Socket.IO
-
-## File_structure
-
-REALITIME_CODE/
-├── 📁 backend/                  # Backend server files
-│   └── 🟨 index.js              # Main server entry point (Express/Socket.IO)
-│
-├── 📁 frontend/                 # Frontend application
-│   ├── 📁 dist/                 # Production build output
-│   ├── 📁 public/               # Static assets
-│   │   └── 🟨 index.html        # Main HTML template
-│   │
-│   ├── 📁 src/                  # Source code
-│   │   ├── 📁 assets/           # Images/fonts
-│   │   ├── 🟦 App.css           # Main styles
-│   │   ├── 🟦 App.jsx           # Root React component
-│   │   └── 🟦 main.jsx          # React entry point
-│   │
-│   ├── 🟨 .eslint.config.js     # ESLint configuration
-│   ├── 🟨 vite.config.js        # Vite configuration
-│   ├── 🟨 package.json          # Frontend dependencies
-│   └── 🟨 package-lock.json
-│
-├── 📄 .gitignore               # Git exclusion rules
-├── 📄 README.md                # Project documentation
-├── 🟨 package.json             # Root project config
-└── 🟨 package-lock.json
-
-Key:
-📁 = Folder
-📄 = Config/documentation
-🟨 = JavaScript/JSON file
-🟦 = React component
