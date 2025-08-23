@@ -2,7 +2,10 @@ import express from "express";
 import http from "http";
 import { Server } from "socket.io";
 import path from "path";
+<<<<<<< HEAD
 import axios from "axios";
+=======
+>>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
 
 const app = express();
 
@@ -68,6 +71,7 @@ io.on("connection", (socket) => {
     io.to(roomId).emit("languageUpdate", language);
   });
 
+<<<<<<< HEAD
   socket.on("compileCode", async ({code, roomId, language, version}) => {
     if(rooms.has(roomId)) {
       const room = rooms.get(roomId);
@@ -85,6 +89,8 @@ io.on("connection", (socket) => {
     }
   });
 
+=======
+>>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
   socket.on("disconnect", () => {
     if (currentRoom && currentUser) {
       rooms.get(currentRoom).delete(currentUser);

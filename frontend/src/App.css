@@ -1,6 +1,9 @@
 /* App.css */
+<<<<<<< HEAD
 
 /* Reset */
+=======
+>>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +11,11 @@
 }
 
 body {
+<<<<<<< HEAD
   font-family: "Roboto", sans-serif;
+=======
+  font-family: "Roboto", "sans-serif";
+>>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
   background: #f0f2f5;
   color: #333;
 }
@@ -68,7 +75,10 @@ body {
   height: 100vh;
 }
 
+<<<<<<< HEAD
 /* Sidebar */
+=======
+>>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
 .sidebar {
   width: 250px;
   padding: 1.5rem;
@@ -76,8 +86,12 @@ body {
   color: #ecf0f1;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   justify-content: flex-start;
   overflow-y: auto;
+=======
+  justify-content: space-between;
+>>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
 }
 
 /* Room Info */
@@ -206,6 +220,7 @@ body {
   color: #eee;
   padding: 1rem;
   overflow: auto;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
 }
@@ -238,4 +253,6 @@ body {
   border-radius: 5px;
   border: none;
   resize: none;
+=======
+>>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
 }
