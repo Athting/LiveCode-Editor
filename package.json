@@ -3,29 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-<<<<<<< HEAD
   "type": "module",
-=======
-  "type":"module",
->>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/index.js",
     "dev": "nodemon backend/index.js",
-<<<<<<< HEAD
     "build": "npm install && cd frontend && npm install && npm run build"
-=======
-    "build":"npm install && cd frontend && npm install && npm run build"
->>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^1.11.0",
-=======
->>>>>>> a043745e78a381ba24eabdb9ea08ff1c7f1f7977
     "express": "^5.1.0",
     "socket.io": "^4.8.1"
   },
